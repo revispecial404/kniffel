@@ -1,0 +1,24 @@
+{
+    "name": "Kniffel - Material 3",
+    "short_name": "Kniffel",
+    "description": "Ein Kniffel-Spiel als Progressive Web App.",
+    "start_url": "/index.html", // Oder einfach "/" wenn der Server das richtig mapt
+    "display": "standalone", // Öffnet wie eine native App
+    "background_color": "#FEFBFF", // Passend zum CSS Background
+    "theme_color": "#0B57D0",    // Passend zur CSS Primary Color
+    "icons": [
+      {
+        "src": "icons/icon-192x192.png", // Pfad zu deinem Icon (ersetzen!)
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any maskable" // "maskable" hilft bei adaptiven Icons
+      },
+      {
+        "src": "icons/icon-512x512.png", // Pfad zu deinem Icon (ersetzen!)
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any maskable"
+      }
+    ]
+  }
+  
