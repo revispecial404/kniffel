@@ -1,7 +1,14 @@
 # Kniffel - Web Game
 
 This project is a web-based implementation of the classic dice game Kniffel (also known as Yahtzee). It's built using plain HTML, CSS, and vanilla JavaScript, featuring a clean user interface styled according to Google's Material Design 3 principles.
-
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/6ee36317-7bc2-484e-9d18-d2eea9117370" alt="Kniffel Setup Screen" width="180"></td>
+    <td><img src="https://github.com/user-attachments/assets/49071eae-694b-4820-ab98-7ea00d13f1cb" alt="Kniffel Scoring1" width="180"></td>
+    <td><img src="https://github.com/user-attachments/assets/755f1947-0fee-46fb-92eb-705e84186813" alt="Kniffel Scoring2" width="180"></td>
+    <td><img src="https://github.com/user-attachments/assets/e79dbed8-2366-41e1-94e9-c4b2b3b7e5dc" alt="Kniffel Save/Load" width="180"></td>
+  </tr>
+</table>
 
 ## Features
 
