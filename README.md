@@ -10,7 +10,7 @@ A web-based implementation of the classic dice game **Kniffel** (also known as Y
 
 **✨ Try it out live! ✨**
 
-[**Visit the Kniffel Web Game**](https://www.revispecial404.github.io/kniffel)
+[**Visit the Kniffel Web Game**](https://revispecial404.github.io/kniffel/)
 
 ---
 
