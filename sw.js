@@ -1,7 +1,7 @@
 // Minimaler Service Worker - notwendig für die PWA-Installierbarkeit.
 // Kann später erweitert werden, z.B. für Offline-Caching.
 
-const CACHE_NAME = 'kniffel-cache-v1';
+const CACHE_NAME = 'rollscore-cache-v1';
 const URLS_TO_CACHE = [
   '/', // Wichtig, um die Startseite zu cachen
   '/index.html', // Explizit die HTML-Datei

@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Kniffel</title>
+<title>Roll & Score</title>
 
 <!-- Link zum Web App Manifest -->
 <link rel="manifest" href="manifest.json">
@@ -398,7 +398,7 @@
 </head>
 <body>
 
-<h1>Kniffel</h1>
+<h1>Roll & Score</h1>
 
 <!-- NEU: Setup-Bereich -->
 <div id="setup">
@@ -493,7 +493,7 @@
   const calculatedCategories = ['upperSum', 'bonus', 'total'];
 
   let gameState; // Wird erst nach Setup initialisiert
-  const STORAGE_KEY = 'kniffelSavedGames_v3'; // Key erhöht wg. möglicher Strukturänderung
+  const STORAGE_KEY = 'rollscoreSavedGames_v3'; // Key erhöht wg. möglicher Strukturänderung
 
   // ----- NEU: PWA Installations-Logik -----
   let deferredInstallPrompt = null; // Variable zum Speichern des Events

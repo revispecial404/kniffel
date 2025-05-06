@@ -1,7 +1,7 @@
 {
-    "name": "Kniffel",
-    "short_name": "Kniffel",
-    "description": "Ein Kniffel-Spiel als Progressive Web App.",
+    "name": "Roll & Score",
+    "short_name": "Roll & Score",
+    "description": "Roll & Score (Progressive Web App)",
     "start_url": "/index.html", // Oder einfach "/" wenn der Server das richtig mapt
     "display": "standalone", // Öffnet wie eine native App
     "background_color": "#FEFBFF", // Passend zum CSS Background
