@@ -479,14 +479,14 @@
   const categories = [
     'ones', 'twos', 'threes', 'fours', 'fives', 'sixes', // Upper section
     'threeOfKind', 'fourOfKind', 'fullHouse', 'smallStraight',
-    'largeStraight', 'kniffel', 'chance' // Lower section
+    'largeStraight', '5gleicheZahlen', 'chance' // Lower section
   ];
   const categoryNames = { // Für Anzeige und manuelle Eingabe
       'ones': 'Einser', 'twos': 'Zweier', 'threes': 'Dreier', 'fours': 'Vierer', 'fives': 'Fünfer', 'sixes': 'Sechser',
       'upperSum': 'Summe Oben', 'bonus': 'Bonus (ab 63 Pkt.)',
       'threeOfKind': 'Dreierpasch', 'fourOfKind': 'Viererpasch', 'fullHouse': 'Full House (25 Pkt.)',
       'smallStraight': 'Kleine Straße (30 Pkt.)', 'largeStraight': 'Große Straße (40 Pkt.)',
-      'kniffel': 'Kniffel (50 Pkt.)', 'chance': 'Chance',
+      '5gleicheZahlen': '5 gleiche Zahlen (50 Pkt.)', 'chance': 'Chance',
       'total': 'Gesamt'
    };
   const upperCategories = categories.slice(0, 6);
@@ -833,7 +833,7 @@
         const uniqueSortedStr = [...new Set(sortedDice)].sort((a, b) => a - b).join('');
         return /(12345|23456)/.test(uniqueSortedStr) ? 40 : 0;
       }
-      case 'kniffel':
+      case '5gleicheZahlen':
         return Object.values(counts).some(c => c >= 5) ? 50 : 0;
       case 'chance':
         return sum;
