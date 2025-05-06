@@ -1,5 +1,5 @@
 {
-    "name": "Kniffel - Material 3",
+    "name": "Kniffel",
     "short_name": "Kniffel",
     "description": "Ein Kniffel-Spiel als Progressive Web App.",
     "start_url": "/index.html", // Oder einfach "/" wenn der Server das richtig mapt
