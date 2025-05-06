@@ -2,7 +2,7 @@
     "name": "Roll & Score",
     "short_name": "Roll & Score",
     "description": "Roll & Score (Progressive Web App)",
-    "start_url": "/index.html", // Oder einfach "/" wenn der Server das richtig mapt
+    "start_url": "https://revispecial404.github.io/roll-score/index.html", // Oder einfach "/" wenn der Server das richtig mapt
     "display": "standalone", // Öffnet wie eine native App
     "background_color": "#FEFBFF", // Passend zum CSS Background
     "theme_color": "#0B57D0",    // Passend zur CSS Primary Color
